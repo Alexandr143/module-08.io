@@ -1,0 +1,27 @@
+@media (min-width:1201px) {
+    .wrapper{
+        width: 1200px;
+        margin: 0 auto;
+   }
+    .banner {
+        height:100vh;
+        background-image:url(../img/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        height: 50em;
+        width: 100%;
+   }
+    .banner-main-slogan{
+        margin-top: 180px;
+        padding: 0 300px;
+   }
+    .partner-block{
+        width: 1200px;
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+   }
+}
+     
+       

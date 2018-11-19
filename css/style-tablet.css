@@ -1,0 +1,77 @@
+@media (min-width:768px) {
+    .wrapper{
+        width: 768px;
+        margin: 0 auto;
+   }
+    .banner{
+        background-image: url(../img/bg-tablet.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+   }
+    .navigation{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        padding-top: 40px;
+        margin-left: 40px;
+   }
+    .page-block{
+        order: 1;
+        padding-top: 0;
+        margin: 0;
+   }
+    .logo{
+        margin: 0;
+   }
+    .logo a{
+        margin: 0;
+        padding: 0;
+   }
+    .banner-main-slogan{
+        font-size: 52px;
+        font-weight: 700;
+        padding: 0 100px;
+        padding-top: 120px;
+        margin: 0;
+   }
+    .banner-item{
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0;
+        padding: 0;
+        padding-top: 45px;
+        padding-bottom: 42px;
+   }
+    .title{
+        margin: 0;
+        padding: 0;
+        padding-top: 310px;
+        padding-bottom: 42px;
+   }
+    .partner-block{
+        width: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+   }
+    .icon-pink{
+        order: 1;
+   }
+    .icon-yellow{
+        order: 3;
+   }
+    .icon-green{
+        order: 2;
+   }
+    .icon-blue{
+        order: 4;
+   }
+}
+@media (min-width:769px) and (max-width:1200px) {
+    .banner{
+        background-image: url(../img/bg-desktop.png);
+        background-repeat: no-repeat;
+        background-position: top center;
+   }
+}
+
