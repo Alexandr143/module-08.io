@@ -203,7 +203,7 @@ html,*{
  .select::first-letter{
      text-transform: uppercase;
 }
- @media (min-width:321px) and (max-width:767px){
+ @media (min-width:321px){
 .banner{
      background-image: url(../img/bg-tablet.png);
      background-repeat: no-repeat;
